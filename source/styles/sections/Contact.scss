@@ -1,0 +1,156 @@
+.Contact {
+  max-width: 1608px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.Contact__header {
+  width: 100%;
+  height: 550px;
+}
+.Contact__header__mountain {
+  width: 100%;
+  height: 100%;
+  background: url(../../images/Mountain2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 145px;
+  text-align: center;
+  h2 {
+    height: 33px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 37px;
+    font-weight: 900;
+    line-height: 53.33px;
+    letter-spacing: 0.21px;
+  }
+  h3 {
+    height: 26px;
+    color: #ffffff;
+    font-family: "Lato" sans-serif;
+    font-size: 37px;
+    font-weight: 500;
+    line-height: 53.33px;
+    letter-spacing: 0.5px;
+  }
+}
+.mountain__logo {
+  width: 120px;
+  height: 180px;
+  background: url(../../images/YellowLogo.png);
+  background-repeat: no-repeat;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 180px;
+  position: relative;
+  z-index: 1;
+}
+.Contact__main {
+  width: 100%;
+  height: 430px;
+}
+.Contact__main__row1 {
+  width: 100%;
+  height: 80px;
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-between;
+}
+.row1__card {
+  max-width: 320px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.card__text-inner {
+  display: block;
+  margin-left: 20px;
+}
+.row1__card__icon1 {
+  width: 70px;
+  height: 55px;
+  background: url(../../images/Envelope_Icon.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.row1__card__icon2 {
+  width: 70px;
+  height: 55px;
+  background: url(../../images/CellPhone.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.row1__card__icon3 {
+  width: 70px;
+  height: 55px;
+  background: url(../../images/Map_Icon.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.row1__card__text {
+  p {
+    &:nth-child(1) {
+      font-size: 20px;
+      font-weight: 600;
+      margin-top: -5px;
+      margin-bottom: 10px;
+    }
+    &:nth-child(2) {
+      line-height: 1;
+      color: #555555;
+      font-family: "Times New Roman PSMT";
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 24px;
+      letter-spacing: 0.4px;
+    }
+    &:nth-child(3) {
+      line-height: 1;
+      color: #555555;
+      font-family: "Times New Roman PSMT";
+      font-size: 18px;
+      font-weight: 600;
+      letter-spacing: 0.4px;
+    }
+  }
+}
+.Contact__main__row2 {
+  max-width: 680px;
+  width: 100%;
+  min-height: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 120px auto 70px;
+}
+.row2__social-icons {
+  width: 67px;
+  height: 67px;
+  border-radius: 50px;
+  border: 2px solid #f0d839;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    background-color: rgb(236, 245, 115);
+  }
+}
+.Contact__footer {
+  line-height: 40px;
+  width: 100%;
+  height: 190px;
+  background-color: #f0d839;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  a {
+    &:hover {
+      color: black;
+    }
+  }
+}

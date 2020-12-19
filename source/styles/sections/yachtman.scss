@@ -1,0 +1,96 @@
+
+.yachtsman{
+  max-width: 1608px;
+  width: 100%;
+  min-height: 730px;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+}
+.yachtsman__leftBlock{
+  max-width: 418px;
+  width: 100%;
+  height: 546px;
+  border-radius: 15px;
+  background-color: pink;
+}
+.yachtsman .center{
+  padding: 94px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.yachtsman__rightBlock{
+  max-width: 740px;
+  width: 100%;
+  min-height: 418px;
+}
+.yachtsman__rightBlock__header{
+  text-align: left;
+}
+.yachtsman__rightBlock__way{
+  max-width: 705px;
+  width: 100%;
+  height: 95px;
+  margin-top: 45px;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #00a4ff;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 100% 100%, 0% 100%);
+  background-color:#ffffff;
+}
+.yachtsman__rightBlock__leftPolygon{
+  width: 36%;
+  height: 100%;
+  padding-left: 50px;
+  padding-top: 25px;
+  clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%);
+  background-color: #00a4ff;
+}
+.yachtsman__rightBlock__middlePolygon{
+  width: 36%;
+  height: 100%;
+  text-align: center;
+  padding-top: 25px;
+  margin-left: -27px;
+  clip-path: polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  background-color: #e4e4e4;
+}
+.yachtsman__rightBlock__rightPolygon{
+  width: 34%;
+  height: 100%;
+  text-align: center;
+  padding-top: 25px;
+  margin-left: -25px;
+  clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 0% 100%, 10% 50%, 0% 0%);
+  background-color: #ffffff;
+}
+.yachtsman__rightBlock  p{
+  width: 630px;
+  height: 124px;
+  color: #040404;
+  font-family: "Lato" sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26.67px;
+  letter-spacing: 0.5px;
+  margin-top: 50px;
+}
+.yachtsman-button{
+  padding: 20px 70px;
+  display: inline-block;
+  border-radius: 10px;
+  margin-top: 58px;
+  background-color: #eed739;
+  color: #000000;
+  font-family: "Lato" sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 21.79px;
+  text-transform: uppercase;
+  letter-spacing: 0.21px;
+}
+.yachtsman-button:hover{
+  color: black;
+  padding: 18px 68px;
+  border: 2px solid  #eed739;
+  background-color: transparent;
+}

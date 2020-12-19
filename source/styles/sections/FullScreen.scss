@@ -1,0 +1,202 @@
+.FullScreen {
+  max-width: 1608px;
+  width: 100%;
+  height: 885px;
+  margin: 0 auto;
+
+}
+.FullScreen__img {
+  width: 100%;
+  height: 100%;
+  background: url(../../images/Ocean.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+}
+
+i {
+  color: yellow;
+}
+
+.FullScreen-header {
+  max-width: 1608px;
+  width: 100%;
+  height: 145px;
+  display: flex;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.FullScreen-header__row1 {
+  width: 100%;
+  height: 45%;
+  display: flex;
+  border-bottom: 3px solid #adadad;
+}
+.row1__phone {
+  max-width: 250px;
+  width: 100%;
+  height: 100%;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  span {
+    color: #ffffff;
+    font-family: "Font Awesome", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 20px;
+    &:before {
+      width: 16px;
+      height: 17px;
+      position: absolute;
+      left: 0;
+      top: 20px;
+    }
+  }
+}
+.row1__email {
+  max-width: 550px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  span {
+    color: #ffffff;
+    font-family: "Font Awesome", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 27px;
+  }
+  &:before {
+    width: 16px;
+    height: 17px;
+    position: absolute;
+    left: 0;
+    top: 18px;
+  }
+}
+.row1__icons {
+  max-width: 230px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.icons {
+  color: yellow;
+  margin: 10px;
+}
+.row1__login-sign {
+  max-width: 250px;
+  width: 100%;
+  height: 100%;
+  margin-right: -15px;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.login {
+  span {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 22px;
+    font-family: "Font Awesome", sans-serif;
+    letter-spacing: 1px;
+    &:before {
+      width: 16px;
+      height: 17px;
+      position: absolute;
+      left: 0;
+      top: 20px;
+    }
+  }
+}
+.sign {
+  span {
+    color: #ffffff;
+    font-weight: 500;
+    margin-left: 45px;
+    font-family: "Font Awesome", sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: block;
+    &:before {
+      width: 16px;
+      height: 10px;
+      position: absolute;
+      left: 85px;
+      top: 20px;
+    }
+  }
+}
+.FullScreen-header__row2 {
+  width: 100%;
+  height: 55%;
+  display: flex;
+
+  .a {
+    text-decoration: none;
+  }
+
+}
+.row2__logo {
+  max-width: 470px;
+  width: 100%;
+  height: 100%;
+  padding-top: 18px;
+  padding-left: 10px;
+  h3 {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 9px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 0.6px;
+  }
+}
+.row2__menu {
+  max-width: 780px;
+  width: 100%;
+  height: 100%;
+  padding-right: 20px;
+  a {
+    &:hover {
+      color: white;
+    }
+  }
+  li {
+    &:hover {
+      color: white;
+      border-bottom: 2px solid yellow;
+      cursor: pointer;
+    }
+    list-style: none !important;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 80px;
+  }
+}
+nav {
+  ul {
+    max-width: 780px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+}

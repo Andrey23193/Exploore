@@ -1,0 +1,90 @@
+.Trusted {
+  max-width: 1608px;
+  width: 100%;
+  min-height: 760px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.Trusted__container-img {
+  width: 100%;
+  height: 500px;
+  background: url(../../images/Megapolis.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 90px;
+  padding-bottom: 100px;
+  padding-left: 2px;
+  padding-right: 2px;
+  .Header-inner {
+    margin-bottom: 70px;
+  }
+}
+.Trusted__container-colorBlue {
+  width: 100%;
+  height: 255px;
+  background-color: #00a4ff;
+}
+.Trusted__blocksWrapper {
+  margin-top: 75px;
+  margin-left: 160px;
+  margin-right: 160px;
+  display: flex;
+  justify-content: space-between;
+}
+.white-blocks {
+  width: 385px;
+  min-height: 410px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  z-index: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 0;
+}
+.white-block__title {
+  margin-top: 25px;
+  margin-bottom: 22px;
+  height: 25px;
+  color: #000000;
+  font-family: "Montserrat - Extra Bold" sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 35.04px;
+  display: block;
+}
+.white-block__title-margin {
+  margin-top: 20px;
+}
+.white-block_icon-font {
+  margin-top: -10px;
+}
+.white-block__ribbon {
+  width: 395px;
+  height: 65px;
+  background-color: #f0d839;
+  overflow: visible;
+  margin-bottom: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: #000000;
+  font-family: "Montserrat" sans-serif;
+  font-weight: 600;
+  line-height: 43.74px;
+  letter-spacing: 0.21px;
+  margin-left: 2px;
+  margin-right: 2px;
+  i {
+    font-size: 30px;
+  }
+  span {
+    font-size: 35px;
+    margin-bottom: 4px;
+  }
+}

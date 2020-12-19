@@ -1,0 +1,66 @@
+
+.Big-Banner{
+  max-width: 760px;
+  min-height: 330px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 250px;
+  text-align: center;
+}
+.Big-Banner h1{
+  margin-top: -480px;
+  color: #ffffff;
+  font-family: "Montserrat - Black" sans-serif;
+  font-size: 75px;
+  font-weight: 800;
+  letter-spacing: 0.21px;
+  line-height: 7px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Big-Banner h2{
+  font-family: "Montserrat", sans-serif;
+  height: 35px;
+  font-size: 38px;
+  letter-spacing: 13px;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+.Big-Banner p {
+  margin-left: 240px;
+  margin-top: 5px;
+  width: 750px;
+  height: 44px;
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-bottom: 150px;
+}
+.Big-Banner__button{
+  max-width: 216px;
+  width: 100%;
+  height: 58px;
+  background-color: #efd739;
+  margin: 0 auto;
+  margin-top: -100px;
+  border-radius: 5px;
+  line-height: 58px;
+  color: black;
+  font-family: "Font Awesome", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.Big-Banner__button:hover{
+  color: #656b68;
+  background-color: #c7b22a;
+  transition: .1s;
+}
